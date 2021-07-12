@@ -8,7 +8,10 @@
 
     Read more about Jekyll in the [official documentation](https://jekyllrb.com/docs/)....
 
-3. Build the site and serve it locally at [`http://localhost:4000`](http://localhost:4000) using the following command:
+3. Install bundle for the project using the following command:
+    > `bundle install`
+
+4. Build the site and serve it locally at [`http://localhost:4000`](http://localhost:4000) using the following command:
     > `bundle exec jekyll serve`
 
 
