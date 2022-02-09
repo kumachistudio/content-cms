@@ -18,3 +18,8 @@
     > #### Note:
     > Pass the `--livereload` option to serve to automatically refresh the page with each change you make to the source files:
     `bundle exec jekyll serve --livereload`
+
+5. Deploying the cms
+Run `git remote add heroku https://git.heroku.com/content-cms.git` to add heroku repo to local git.
+Then run `git push heroku develop:master` to deploy to heroku
+The app can then be accessed at https://content-cms.herokuapp.com/
